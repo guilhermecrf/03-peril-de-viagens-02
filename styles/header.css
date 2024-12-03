@@ -19,6 +19,13 @@ header #profile {
   max-width: 24rem;
 }
 
+#profile img {
+  width: 11rem;
+  height: 11rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 #profile h1 {
   color: var(--text-color-primary);
   font: var(--text-lg);
