@@ -35,3 +35,25 @@ body {
 
   font: var(--text);
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  transition: all 300ms;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container-space {
+  padding-inline: 2rem;
+  margin-inline: auto;
+  max-width: 80rem;
+}
+
+.bg-surface-color {
+  background: var(--surface-color);
+}
